@@ -30,7 +30,7 @@ from typing import Mapping
         ),
     ],
 )
-def test_build_url(
+def test__build_url(
     expected: str,
     host_name: str,
     relative_url: str,

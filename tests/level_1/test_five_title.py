@@ -17,5 +17,5 @@ long_title = fake.text()
         ("Copy of short_title (5)", 100, "Copy of short_title (6)"),
     ],
 )
-def test_change_copy_item(title: str, max_main_item_title_length: int, expected: str):
+def test__change_copy_item(title: str, max_main_item_title_length: int, expected: str):
     assert change_copy_item(title, max_main_item_title_length) == expected

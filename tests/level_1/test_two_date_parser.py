@@ -20,5 +20,5 @@ datetime_tomorrow_midday = datetime_midday_from_today(1)
         ("tomorrow", "12:00", datetime_tomorrow_midday),
     ],
 )
-def test_compose_datetime_from(date_str: str, time_str: str, expected: datetime.datetime):
+def test__compose_datetime_from(date_str: str, time_str: str, expected: datetime.datetime):
     assert compose_datetime_from(date_str, time_str) == expected
